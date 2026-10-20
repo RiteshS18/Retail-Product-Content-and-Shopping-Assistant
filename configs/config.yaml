@@ -1,0 +1,47 @@
+seed: 42
+
+paths:
+  # legacy sample (kept for smoke test)
+  products_csv: data/sample/products.csv
+  # processed real data
+  processed_csv: data/processed/products.csv
+  train_csv: data/processed/train.csv
+  val_csv: data/processed/val.csv
+  test_csv: data/processed/test.csv
+  image_dir: data/images
+  index_dir: models_out/index
+  classifier_ckpt: models_out/classifier_best.pt
+  generator_dir: models_out/content_gen
+  reports_dir: reports
+  figures_dir: reports/figures
+
+classifier:
+  backbone: resnet18           # resnet18 | efficientnet_b0
+  image_size: 224
+  batch_size: 64
+  epochs: 3
+  lr: 0.0003
+  early_stopping_patience: 2
+  weight_decay: 0.01
+  num_workers: 0               # 0 for Windows compatibility
+
+embedder:
+  model_name: sentence-transformers/all-MiniLM-L6-v2
+  top_k: 5
+  use_faiss: true              # false -> numpy fallback
+
+generator:
+  base_model: google/flan-t5-small
+  max_input_len: 128
+  max_target_len: 128
+  max_train_samples: 1200
+  max_val_samples: 100
+  epochs: 2
+  batch_size: 16
+  lr: 0.0003
+  eval_steps: 50
+  save_total_limit: 1
+
+assistant:
+  memory_turns: 5              # number of conversation turns to keep
+  refuse_hallucination: true   # grounded prompt

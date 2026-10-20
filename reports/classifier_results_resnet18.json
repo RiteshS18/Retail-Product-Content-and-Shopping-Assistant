@@ -1,0 +1,103 @@
+{
+  "backbone": "resnet18",
+  "test_accuracy": 0.9641509433962264,
+  "test_macro_f1": 0.9642174277735589,
+  "per_class_report": {
+    "bags": {
+      "precision": 0.9615384615384616,
+      "recall": 1.0,
+      "f1-score": 0.9803921568627451,
+      "support": 50.0
+    },
+    "belts": {
+      "precision": 1.0,
+      "recall": 0.98,
+      "f1-score": 0.98989898989899,
+      "support": 50.0
+    },
+    "bottomwear": {
+      "precision": 0.9423076923076923,
+      "recall": 0.98,
+      "f1-score": 0.9607843137254902,
+      "support": 50.0
+    },
+    "eyewear": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 50.0
+    },
+    "headwear": {
+      "precision": 1.0,
+      "recall": 0.9333333333333333,
+      "f1-score": 0.9655172413793104,
+      "support": 30.0
+    },
+    "jewellery": {
+      "precision": 0.9791666666666666,
+      "recall": 0.94,
+      "f1-score": 0.9591836734693877,
+      "support": 50.0
+    },
+    "sandals": {
+      "precision": 0.9555555555555556,
+      "recall": 0.86,
+      "f1-score": 0.9052631578947369,
+      "support": 50.0
+    },
+    "shoes": {
+      "precision": 0.8596491228070176,
+      "recall": 0.98,
+      "f1-score": 0.9158878504672897,
+      "support": 50.0
+    },
+    "socks": {
+      "precision": 1.0,
+      "recall": 0.94,
+      "f1-score": 0.9690721649484536,
+      "support": 50.0
+    },
+    "topwear": {
+      "precision": 0.98,
+      "recall": 0.98,
+      "f1-score": 0.98,
+      "support": 50.0
+    },
+    "watches": {
+      "precision": 0.9615384615384616,
+      "recall": 1.0,
+      "f1-score": 0.9803921568627451,
+      "support": 50.0
+    },
+    "accuracy": 0.9641509433962264,
+    "macro avg": {
+      "precision": 0.9672505418558051,
+      "recall": 0.963030303030303,
+      "f1-score": 0.9642174277735589,
+      "support": 530.0
+    },
+    "weighted avg": {
+      "precision": 0.9660147132465902,
+      "recall": 0.9641509433962264,
+      "f1-score": 0.9641683782035305,
+      "support": 530.0
+    }
+  },
+  "training_history": [
+    {
+      "epoch": 1,
+      "val_acc": 0.9527,
+      "macro_f1": 0.9542
+    },
+    {
+      "epoch": 2,
+      "val_acc": 0.9565,
+      "macro_f1": 0.9549
+    },
+    {
+      "epoch": 3,
+      "val_acc": 0.9773,
+      "macro_f1": 0.9782
+    }
+  ]
+}

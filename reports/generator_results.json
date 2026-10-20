@@ -1,0 +1,12 @@
+{
+  "zero_shot": {
+    "rouge1": 0.3607,
+    "rouge2": 0.2837,
+    "rougeL": 0.3547
+  },
+  "fine_tuned": {
+    "rouge1": 0.9096,
+    "rouge2": 0.8885,
+    "rougeL": 0.9096
+  }
+}

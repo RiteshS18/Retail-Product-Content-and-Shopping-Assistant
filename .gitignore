@@ -1,0 +1,14 @@
+.venv/
+__pycache__/
+*.pyc
+models_out/*
+!models_out/.gitkeep
+data/processed/
+data/raw/
+data/images/
+*.pt
+*.pth
+*.egg-info/
+.pytest_cache/
+.ipynb_checkpoints/
+.DS_Store

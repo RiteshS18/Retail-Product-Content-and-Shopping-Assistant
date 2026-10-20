@@ -1,0 +1,217 @@
+{
+  "hit_rate_at_1": 0.9667,
+  "hit_rate_at_5": 1.0,
+  "n_queries": 30,
+  "per_query": [
+    {
+      "query": "I need running shoes",
+      "expected": "shoes",
+      "hit@1": 1,
+      "hit@5": 1,
+      "top_cat": "shoes"
+    },
+    {
+      "query": "Show me black bags",
+      "expected": "bags",
+      "hit@1": 1,
+      "hit@5": 1,
+      "top_cat": "bags"
+    },
+    {
+      "query": "What watches do you have?",
+      "expected": "watches",
+      "hit@1": 1,
+      "hit@5": 1,
+      "top_cat": "watches"
+    },
+    {
+      "query": "Looking for sunglasses",
+      "expected": "eyewear",
+      "hit@1": 1,
+      "hit@5": 1,
+      "top_cat": "eyewear"
+    },
+    {
+      "query": "I want a blue top",
+      "expected": "topwear",
+      "hit@1": 1,
+      "hit@5": 1,
+      "top_cat": "topwear"
+    },
+    {
+      "query": "Find me slim-fit bottomwear",
+      "expected": "bottomwear",
+      "hit@1": 1,
+      "hit@5": 1,
+      "top_cat": "bottomwear"
+    },
+    {
+      "query": "Show belts",
+      "expected": "belts",
+      "hit@1": 1,
+      "hit@5": 1,
+      "top_cat": "belts"
+    },
+    {
+      "query": "Cotton socks please",
+      "expected": "socks",
+      "hit@1": 1,
+      "hit@5": 1,
+      "top_cat": "socks"
+    },
+    {
+      "query": "Any jewellery under $50?",
+      "expected": "jewellery",
+      "hit@1": 1,
+      "hit@5": 1,
+      "top_cat": "jewellery"
+    },
+    {
+      "query": "I need a cap or hat",
+      "expected": "headwear",
+      "hit@1": 1,
+      "hit@5": 1,
+      "top_cat": "headwear"
+    },
+    {
+      "query": "Red running shoes",
+      "expected": "shoes",
+      "hit@1": 1,
+      "hit@5": 1,
+      "top_cat": "shoes"
+    },
+    {
+      "query": "Leather bags under $100",
+      "expected": "bags",
+      "hit@1": 1,
+      "hit@5": 1,
+      "top_cat": "bags"
+    },
+    {
+      "query": "Quartz watches",
+      "expected": "watches",
+      "hit@1": 1,
+      "hit@5": 1,
+      "top_cat": "watches"
+    },
+    {
+      "query": "UV protection sunglasses",
+      "expected": "eyewear",
+      "hit@1": 1,
+      "hit@5": 1,
+      "top_cat": "eyewear"
+    },
+    {
+      "query": "Formal topwear white",
+      "expected": "topwear",
+      "hit@1": 1,
+      "hit@5": 1,
+      "top_cat": "topwear"
+    },
+    {
+      "query": "Slim jeans",
+      "expected": "bottomwear",
+      "hit@1": 1,
+      "hit@5": 1,
+      "top_cat": "bottomwear"
+    },
+    {
+      "query": "Metal buckle belts",
+      "expected": "belts",
+      "hit@1": 1,
+      "hit@5": 1,
+      "top_cat": "belts"
+    },
+    {
+      "query": "Ankle socks",
+      "expected": "socks",
+      "hit@1": 1,
+      "hit@5": 1,
+      "top_cat": "socks"
+    },
+    {
+      "query": "Silver jewellery",
+      "expected": "jewellery",
+      "hit@1": 1,
+      "hit@5": 1,
+      "top_cat": "jewellery"
+    },
+    {
+      "query": "Baseball cap",
+      "expected": "headwear",
+      "hit@1": 1,
+      "hit@5": 1,
+      "top_cat": "headwear"
+    },
+    {
+      "query": "Comfortable sneakers black",
+      "expected": "shoes",
+      "hit@1": 1,
+      "hit@5": 1,
+      "top_cat": "shoes"
+    },
+    {
+      "query": "Laptop bag padded",
+      "expected": "bags",
+      "hit@1": 1,
+      "hit@5": 1,
+      "top_cat": "bags"
+    },
+    {
+      "query": "Smart watch with heart rate",
+      "expected": "watches",
+      "hit@1": 1,
+      "hit@5": 1,
+      "top_cat": "watches"
+    },
+    {
+      "query": "Aviator sunglasses",
+      "expected": "eyewear",
+      "hit@1": 1,
+      "hit@5": 1,
+      "top_cat": "eyewear"
+    },
+    {
+      "query": "Long sleeve shirt",
+      "expected": "topwear",
+      "hit@1": 1,
+      "hit@5": 1,
+      "top_cat": "topwear"
+    },
+    {
+      "query": "Denim trousers",
+      "expected": "bottomwear",
+      "hit@1": 1,
+      "hit@5": 1,
+      "top_cat": "bottomwear"
+    },
+    {
+      "query": "Genuine leather belt",
+      "expected": "belts",
+      "hit@1": 1,
+      "hit@5": 1,
+      "top_cat": "belts"
+    },
+    {
+      "query": "Cushioned sports socks",
+      "expected": "socks",
+      "hit@1": 1,
+      "hit@5": 1,
+      "top_cat": "socks"
+    },
+    {
+      "query": "Gold earrings",
+      "expected": "jewellery",
+      "hit@1": 1,
+      "hit@5": 1,
+      "top_cat": "jewellery"
+    },
+    {
+      "query": "Sun hat for beach",
+      "expected": "headwear",
+      "hit@1": 0,
+      "hit@5": 1,
+      "top_cat": "eyewear"
+    }
+  ]
+}
